@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<!-- Mirrored from theme.baitimo.ir/sigma_demo/demos/blog/12_blog.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Sep 2023 00:00:21 GMT -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../assets/css/main.css" id="main_style">
+  <link href="../assets/css/materialdesignicons.min.css" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="../assets/css/style-blog.css"> -->
+  <link rel="stylesheet" href="../assets/css/jquery-ui.min.css">
+  <title>Sigma - وبلاگ</title>
+  <link rel="icon" href="../assets/img/Logo_32x32.png" type="image/png">
+</head>
+<body>
+
+<!--Switcher-->
+<div class="style-switcher">
+  <span class="style-switcher__control"></span>
+  <div class="style-switcher__list">
+    <a class="style-switcher__link style-switcher__link--red active" href="../assets/css/red.css"></a>
+    <a class="style-switcher__link style-switcher__link--blue" href="../assets/css/blue.css"></a>
+    <a class="style-switcher__link style-switcher__link--violet" href="../assets/css/violet.css"></a>
+    <a class="style-switcher__link style-switcher__link--green" href="../assets/css/green.css"></a> <br/>
+    <a class="style-switcher__link style-switcher__link--red-gradient" href="../assets/css/red-gradient.css"></a>
+    <a class="style-switcher__link style-switcher__link--blue-gradient" href="../assets/css/blue-gradient.css"></a>
+    <a class="style-switcher__link style-switcher__link--violet-gradient" href="../assets/css/violet-gradient.css"></a>
+    <a class="style-switcher__link style-switcher__link--green-gradient" href="../assets/css/green-gradient.css"></a>
+  </div>
+</div>
+<!--Switcher-->
+
+<!--Main menu-->
+<div class="menu">
+  <div class="container menu__wrapper">
+    <div class="row">
+      <div class="menu__logo menu__item">
+        <a href="../index.html">
+          <svg class="menu__logo-img" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+            <path data-name="Sigma symbol" class="svg-element"
+                  d="M237.418,8583.56a12.688,12.688,0,0,0,.419-3.37c-0.036-5.24-2.691-9.68-7.024-13.2h-3.878a20.819,20.819,0,0,1,4.478,13.01c0,4.56-2.456,10.2-6.413,11.4a16.779,16.779,0,0,1-2.236.51c-10.005,1.55-14.109-17.54-9.489-23.31,2.569-3.21,6.206-4.08,11.525-4.08h17.935A24.22,24.22,0,0,1,237.418,8583.56Zm-12.145-24.45c-8.571.02-12.338,0.98-16.061,4.84-6.267,6.49-6.462,20.69,4.754,27.72a24.092,24.092,0,1,1,27.3-32.57h-16v0.01Z"
+                  transform="translate(-195 -8544)"/>
+          </svg>
+          <p class="menu__logo-title">سیگما</p>
+        </a>
+      </div>
+      <div class="menu__item d-t-none">
+        <nav class="menu__center-nav">
+          <ul>
+            <li>
+              <div class="menu__dropdown">
+                <a class="link link--gray menu__dropdown-btn">خانه
+                  <span><i class="mdi mdi-chevron-down"></i></span>
+                </a>
+                <div class="menu__dropdown-content menu__dropdown-content--home">
+                  <a class="link link--gray" href="../index.html">اپلیکیشن موبایل</a>
+                  <a class="link link--gray" href="../02_messenger.html">پیامرسان</a>
+                  <a class="link link--gray" href="../03_webapp.html">اپلیکیشن تحت وب</a>
+                  <a class="link link--gray " href="../04_desktop.html">اپلیکیشن دسکتاپ</a>
+                </div>
+              </div>
+            </li>
+            <li><a href="../05_features.html" class="link link--gray">ویژگی ها</a></li>
+            <li><a href="../06_pricing.html" class="link link--gray">قیمت گذاری و تعرفه</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="menu__item">
+        <nav class="menu__right-nav d-l-none">
+          <ul>
+            <li><a href="../10_get-app.html" class="site-btn site-btn--accent">همین الان شروع کن!</a></li>
+            <li>
+              <div class="menu__dropdown d-t-none">
+                <a class="link link--gray menu__dropdown-btn">Fa
+                  <span><i class="mdi mdi-chevron-down"></i></span>
+                </a>
+                <div class="menu__dropdown-content">
+                  <a class="link link--gray link--gray-active" href="#">Fa</a>
+                  <a class="link link--gray" href="#">Fr</a>
+                  <a class="link link--gray" href="#">En</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <div class="d-none d-t-block">
+          <button type="button" class="menu__mobile-button">
+            <span><i class="mdi mdi-menu" aria-hidden="true"></i></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Main menu-->
+
+<!--Mobile menu-->
+<div class="mobile-menu d-none d-t-block">
+  <div class="container">
+    <div class="mobile-menu__logo">
+      <svg class="menu__logo-img" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+        <path data-name="Sigma symbol" class="svg-element"
+              d="M237.418,8583.56a12.688,12.688,0,0,0,.419-3.37c-0.036-5.24-2.691-9.68-7.024-13.2h-3.878a20.819,20.819,0,0,1,4.478,13.01c0,4.56-2.456,10.2-6.413,11.4a16.779,16.779,0,0,1-2.236.51c-10.005,1.55-14.109-17.54-9.489-23.31,2.569-3.21,6.206-4.08,11.525-4.08h17.935A24.22,24.22,0,0,1,237.418,8583.56Zm-12.145-24.45c-8.571.02-12.338,0.98-16.061,4.84-6.267,6.49-6.462,20.69,4.754,27.72a24.092,24.092,0,1,1,27.3-32.57h-16v0.01Z"
+              transform="translate(-195 -8544)"/>
+      </svg>
+    </div>
+    <button type="button" class="mobile-menu__close">
+      <span><i class="mdi mdi-close" aria-hidden="true"></i></span>
+    </button>
+    <nav class="mobile-menu__wrapper">
+      <ul class="mobile-menu__ul">
+        <li class="mobile-menu__li mobile-menu__li-collapse"><a class="link link--dark-gray">خانه
+          <span><i class="mdi mdi-chevron-down"></i></span>
+        </a></li>
+        <li class="mobile-menu__ul--collapsed">
+          <ul class="mobile-menu__ul">
+            <li class="mobile-menu__li"><a class="link link--gray" href="../index.html">اپلیکیشن موبایل
+              </a>
+            </li>
+            <li class="mobile-menu__li"><a class="link link--gray" href="../02_messenger.html">پیامرسان</a></li>
+            <li class="mobile-menu__li"><a class="link link--gray" href="../03_webapp.html">اپلیکیشن تحت وب</a></li>
+            <li class="mobile-menu__li"><a class="link link--gray" href="../04_desktop.html">اپلیکیشن دسکتاپ</a></li>
+          </ul>
+        </li>
+        <li class="mobile-menu__li"><a href="../05_features.html" class="link link--dark-gray">ویژگی ها</a></li>
+        <li class="mobile-menu__li"><a href="../06_pricing.html" class="link link--dark-gray">قیمت گذاری و تعرفه ها</a></li>
+        <li class="mobile-menu__li"><a href="../10_get-app.html" class="site-btn site-btn--accent">شروع کنید</a></li>
+        <li class="mobile-menu__li mobile-menu__li-collapse"><a class="link link--dark-gray">Fa
+          <span><i class="mdi mdi-chevron-down"></i></span></a></li>
+        <li class="mobile-menu__ul--collapsed">
+          <ul class="mobile-menu__ul">
+            <li class="mobile-menu__li"><a href="#" class="link link--gray link--gray-active">Fa</a></li>
+            <li class="mobile-menu__li"><a href="#" class="link link--gray">Fr</a></li>
+            <li class="mobile-menu__li"><a href="#" class="link link--gray">En</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+<!--Mobile menu-->
+
+
+<!--Header-->
+<header class="header-home header-home--color">
+  <div class="background background--wave">
+    <div class="container">
+      <div class="row blog">
+        <div class="col-12">
+          <div class="blog__item blog__item--header">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!--Header-->
+
+<!--Blog page-->
+<section class="section">
+  <div class="container">
+    <div class="row blog blog--section">
+      <div class="col-8 col-m-8">
+        <div class="blog__wrap">
+        </div>
+        <div class="blog__btn-toolbar">
+          <a class="site-btn site-btn--light blog__btn-prev">پست های قدیمی</a>
+          <a class="site-btn site-btn--light blog__btn-next">پست های جدیدتر</a>
+        </div>
+         <!--------------------------- 
+         توجه داشته باشید که پست ها همگی در فایل 
+         posts.json
+         هستند ، برای ویرایش به این فایل مراجعه کنید
+         برای آپلود شدن پست ها از این فایل بایستی این قالب را در هاست خود آپلود کنید 
+         --------------------------->
+      </div>
+
+      <!--Right Info-->
+      <div class="col-offset-1 col-3 col-m-4">
+        <div class="card form">
+          <p class="card__title">جست و جو در مطالب</p>
+          <form class="form_form">
+            <div class="form__form-group form__form-group--without-label">
+              <input class="form__input js-field__search" type="text" placeholder="جست و جو کنید">
+              <span class="form__input-icon"><i class="mdi mdi-magnify"></i></span>
+            </div>
+          </form>
+        </div>
+        <div class="card form">
+          <p class="card__title">دسته بندی ها</p>
+          <form class="form__form js-form-category">
+            <div class="form__form-group form__form-group--without-label">
+              <select class="form__input form__input--select js-field__category" title="category">
+                <option class="op1">updates</option>
+                <option class="op2">tutorials</option>
+                <option class="op3">our_platform</option>
+              </select>
+              <div class="form__input-icon-wrap">
+                <span class="form__input-icon"><i class="mdi mdi-chevron-down"></i></span>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="card">
+          <p class="card__title">محبوب ترین</p>
+          <a class="popular" href="../posts/01_video_post.html">
+            <div class="popular__img" style="background-image: url(../assets/img/blog/19_blog_img_2.jpg)"></div>
+            <p class="popular__title">نحوه راه اندازی سیگما در 10 دقیقه (آموزش ویدیویی)</p>
+          </a>
+          <a class="popular" href="../posts/02_gallery_post.html">
+            <div class="popular__img" style="background-image: url(../assets/img/blog/19_blog_img_3.jpg)"></div>
+            <p class="popular__title">سیگما API منتشر شد نسخه 3.0.2، تغییر ویژگی آدرس IP</p>
+          </a>
+          <a class="popular" href="../posts/03_standard_post.html">
+            <div class="popular__img" style="background-image: url(../assets/img/blog/19_blog_img_1.jpg)"></div>
+            <p class="popular__title">به‌روزرسانی، اخبار و پشتیبانی Sigma PRO 3.1.5</p>
+          </a>
+        </div>
+        <div class="card form">
+          <p class="card__title">بایگانی</p>
+          <form class="form__form ">
+            <div class="form__form-group form__form-group--without-label">
+              <select class="form__input form__input--select" title="month" placeholder="انتخاب ماه">
+                <option>مهر</option>
+                <option>اسفند </option>
+                <option>خرداد </option>
+                <option>تیر </option>
+                <option>دی </option>
+                <option>مهر </option>
+              </select>
+              <div class="form__input-icon-wrap">
+                <span class="form__input-icon"><i class="mdi mdi-chevron-down"></i></span>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="card">
+          <p class="card__title">تگ ها</p>
+          <div class="tags">
+            <button class="site-btn site-btn--light tags__tag">اندروید</button>
+            <button class="site-btn site-btn--light tags__tag">API</button>
+            <button class="site-btn site-btn--light tags__tag">برنامه</button>
+            <button class="site-btn site-btn--light tags__tag">پشتیبان گیری</button>
+            <button class="site-btn site-btn--light tags__tag">ابر</button>
+            <button class="site-btn site-btn--light tags__tag">تغییر</button>
+            <button class="site-btn site-btn--light tags__tag">کنترل پنل</button>
+            <button class="site-btn site-btn--light tags__tag">طراحی</button>
+            <button class="site-btn site-btn--light tags__tag">توسعه</button>
+            <button class="site-btn site-btn--light tags__tag">ایمیل</button>
+            <button class="site-btn site-btn--light tags__tag">ویژگی ها</button>
+            <button class="site-btn site-btn--light tags__tag">چگونه</button>
+            <button class="site-btn site-btn--light tags__tag">آیفون</button>
+            <button class="site-btn site-btn--light tags__tag">آدرس IP</button>
+            <button class="site-btn site-btn--light tags__tag">صفحه مقصد</button>
+            <button class="site-btn site-btn--light tags__tag">مسنجر</button>
+            <button class="site-btn site-btn--light tags__tag">اخبار</button>
+            <button class="site-btn site-btn--light tags__tag">PHP</button>
+            <button class="site-btn site-btn--light tags__tag">سرور</button>
+            <button class="site-btn site-btn--light tags__tag">تنظیم</button>
+            <button class="site-btn site-btn--light tags__tag">به‌روزرسانی</button>
+            <button class="site-btn site-btn--light tags__tag">UI / UX</button>
+            <button class="site-btn site-btn--light tags__tag">ویدئو</button>
+            <button class="site-btn site-btn--light tags__tag">برنامه وب</button>
+            <button class="site-btn site-btn--light tags__tag">وردپرس</button>
+            <button class="site-btn site-btn--light tags__tag">یوتیوب</button>
+          </div>
+        </div>
+    
+        <!-- <div class="card social-card">
+          <p class="card__title">آخرین توییت</p>
+          <a href="https://twitter.com/rtltheme" target="_blank"><i class="social-card__icon social-card__icon--twitter mdi mdi-twitter"
+                                                       aria-hidden="true"></i></a>
+          <div class="tweet__tweet" style="height: 0; opacity: 0">
+            <a class="twitter-timeline" href="https://twitter.com/AspirityThemes?ref_src=twsrc%5Etfw"
+               data-tweet-limit="1">
+              توییت‌های راستچین
+            </a>
+          </div>
+          <div class="social-card__tweet social-card__tweet--load" id="tweet"></div>
+        </div>
+        <div class="card social-card">
+          <p class="card__title">اینستاگرام</p>
+          <a href="https://www.instagram.com/aspirity_templates/" target="_blank">
+            <i class="social-card__icon social-card__icon--instagram mdi mdi-instagram" aria-hidden="true"></i>
+          </a>
+          <div class="instagram">
+            <p>توجه!باید با فیلتر شکن </p>
+            <iframe src="//lightwidget.com/widgets/8805af47fad15bfb82812dae1bccdff2.html" scrolling="نه"
+                    allowtransparency="true" class="lightwidget-widget"
+                    style="width:100%;border:0;overflow:hidden;"></iframe>
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <hr>
+  </div>
+</section>
+<!--Blog page-->
+
+<!--Integrate-->
+<section class="section section--half section--bottom-space">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h3 class="section__title">در خبرنامه هفتگی ثبت نام کنید</h3>
+      </div>
+    </div>
+    <div class="row integrate form form--subscribe">
+      <div class="col-12">
+        <div class="integrate__card card">
+          <p class="integrate__description">
+            بهترین اخبار در صندوق ورودی شما! برای دریافت اخبار و به روز رسانی ها در خبرنامه ما مشترک شوید.          </p>
+          <form class="form__form">
+            <div class="form__form-group">
+              <label class="form__label">ایمیل</label>
+              <input class="form__input js-field__email" type="email" placeholder="example@mail.com">
+              <span class="form-validation"></span>
+            </div>
+            <button class="site-btn site-btn--accent" type="submit">مشترک شدن</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Integrate-->
+
+<div class="section section--light background background--clouds"></div>
+
+
+<!--Footer menu-->
+<div class="container footer-menu">
+  <div class="row">
+    <div class="col-12">
+      <a href="index.html">
+        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+          <path data-name="Sigma symbol" class="svg-element"
+                d="M237.418,8583.56a12.688,12.688,0,0,0,.419-3.37c-0.036-5.24-2.691-9.68-7.024-13.2h-3.878a20.819,20.819,0,0,1,4.478,13.01c0,4.56-2.456,10.2-6.413,11.4a16.779,16.779,0,0,1-2.236.51c-10.005,1.55-14.109-17.54-9.489-23.31,2.569-3.21,6.206-4.08,11.525-4.08h17.935A24.22,24.22,0,0,1,237.418,8583.56Zm-12.145-24.45c-8.571.02-12.338,0.98-16.061,4.84-6.267,6.49-6.462,20.69,4.754,27.72a24.092,24.092,0,1,1,27.3-32.57h-16v0.01Z"
+                transform="translate(-195 -8544)"/>
+        </svg>
+      </a>
+      <nav class="footer-menu__nav">
+        <ul>
+          <li><a href="07_about.html" class="link link--gray">درباره ما</a></li>
+          <li><a href="08_faq.html" class="link link--gray">سوالات متداول</a></li>
+          <li><a href="09_privacy.html" class="link link--gray">قوانین و مقررات</a></li>
+          <li><a href="blog/12_blog.html" class="link link--gray link--gray-active">وبلاگ</a></li>
+        </ul>
+      </nav>
+      <p class="footer-menu__social">
+        <a class="link link--gray" href="#">
+          <i class="mdi mdi-twitter" aria-hidden="true"></i>
+        </a>
+        <a class="link link--gray" href="#">
+          <i class="mdi mdi-facebook" aria-hidden="true"></i>
+        </a>
+        <a class="link link--gray" href="#">
+          <i class="mdi mdi-linkedin" aria-hidden="true"></i>
+        </a>
+        <a class="link link--gray" href="#">
+          <i class="mdi mdi-instagram" aria-hidden="true"></i>
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
+<!--Footer menu-->
+
+<hr>
+
+
+
+<!--Footer-->
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <p>© 1401-1402 تمامی حقوق محفوظ است
+          <a href="https://www.rtl-theme.com/author/hamidcss/" class="link link--gray"> راستچین</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Footer-->
+
+<!-- <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+<script src="../assets/js/vendor/jquery-2.2.4.min.js"></script>
+<!--Selects-->
+<script src="../assets/js/vendor/jquery-editable-select.min.js"></script>
+<!--Instagram-->
+<script src="../assets/js/vendor/lightwidget.js"></script>
+
+<script src="../assets/js/menu.js"></script>
+<script src="../assets/js/mobile-menu.js"></script>
+<script src="../assets/js/blog/blog.js"></script>
+<script src="../assets/js/style-switcher.js"></script>
+</body>
+
+<!-- Mirrored from theme.baitimo.ir/sigma_demo/demos/blog/12_blog.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Sep 2023 00:00:25 GMT -->
+</html>

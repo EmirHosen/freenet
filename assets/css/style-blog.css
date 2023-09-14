@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.op1::before{
+    content: "(به روز رسانی ها)";
+    margin: 0 5px;
+}
+.op2::before{
+    content: "(آموزش)";
+    margin: 0 5px;
+}
+.op3::before{
+    content: "(پلتفرم ما)";
+    margin: 0 5px;
+}
